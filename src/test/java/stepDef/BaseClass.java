@@ -18,7 +18,7 @@ public class BaseClass {
 	@After
 	public void teardown()
 	{
-		driver.close();
+		//driver.close();
 	}
 
 }

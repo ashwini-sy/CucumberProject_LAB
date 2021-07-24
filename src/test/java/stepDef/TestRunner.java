@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		monochrome=true,
 		plugin={"pretty","html:target/cucumber-html"},
-		features="src/features",
-		tags= {"@LoginFeature"},
+		features="src/test/java/features",
+		tags= {"@DataTable"},
 		glue= {"stepDef"}
 		
 		
